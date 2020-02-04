@@ -6,7 +6,7 @@ Configuration parameters could be provided upon instantiation of the player inst
 var config = {
   // Configuration here
 };
-var player = playkit.core.loadPlayer(config);
+var player = pakhshkit.core.loadPlayer(config);
 ```
 
 #### Configuration Structure
@@ -720,7 +720,7 @@ var config = {
 > >
 > > > Note. `startTime` affects the ad playback, e.g. `startTime: 10` will skip ads scheduled until 10.
 > > > <br>To force playing ads scheduled before `startTime`, need to configure the ads plugin.
-> > > <br>For example with [IMA](https://github.com/kaltura/playkit-js-ima/blob/master/docs/api.md) plugin, set `adsRenderingSettings: {playAdsAfterTime: -1}`.
+> > > <br>For example with [IMA](https://github.com/kontorol/pakhshkit-js-ima/blob/master/docs/api.md) plugin, set `adsRenderingSettings: {playAdsAfterTime: -1}`.
 >
 > ##
 >
@@ -1054,7 +1054,7 @@ var config = {
 > > var config = {
 > >   network: {
 > >     requestFilter: function(type, request) {
-> >       if (type === KalturaPlayer.core.RequestType.LICENSE) {
+> >       if (type === KontorolPlayer.core.RequestType.LICENSE) {
 > >         request.headers['customData'] = CUSTOM_DATA;
 > >       }
 > >     }
@@ -1078,7 +1078,7 @@ var config = {
 > > var config = {
 > >   network: {
 > >     responseFilter: function(type, response) {
-> >       if (type === KalturaPlayer.core.RequestType.LICENSE) {
+> >       if (type === KontorolPlayer.core.RequestType.LICENSE) {
 > >         response.data = MANIPULATED_DATA;
 > >       }
 > >     }
