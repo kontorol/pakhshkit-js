@@ -1507,7 +1507,7 @@ Select a new text track.
 
 #### Parameters
 
-- `textTrack` **PKTextTrack** The playkit text track object to set.
+- `textTrack` **PKTextTrack** The pakhshkit text track object to set.
 
 Returns **void**
 
@@ -2164,7 +2164,7 @@ Select a text track
 
 ### Parameters
 
-- `textTrack` **PKTextTrack** The playkit text track
+- `textTrack` **PKTextTrack** The pakhshkit text track
 
 Returns **void**
 
@@ -2429,7 +2429,7 @@ the file that the external captions handler is trying to download could not be d
 ## UNKNOWN_LANGUAGE
 
 The language key in the caption object is empty / does not exist. Language is a mandatory field.
-[https://github.com/kaltura/playkit-js/blob/master/docs/configuration.md#configsourcescaptions][913]
+[https://github.com/kontorol/pakhshkit-js/blob/master/docs/configuration.md#configsourcescaptions][913]
 
 ## BUFFER_READ_OUT_OF_BOUNDS
 
@@ -4625,7 +4625,7 @@ adds a new text track element to the video element or set an existing one
 
 ### Parameters
 
-- `textTrack` **[TextTrack][921]** the playkit text track object to be added
+- `textTrack` **[TextTrack][921]** the pakhshkit text track object to be added
 
 Returns **void**
 
@@ -6440,7 +6440,7 @@ Returns **([number][902] \| [NaN][937])** 0 if the versions are equal- a negativ
 [910]: #audiotrack
 [911]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function
 [912]: https://developer.mozilla.org/docs/Web/API/Event
-[913]: https://github.com/kaltura/playkit-js/blob/master/docs/configuration.md#configsourcescaptions
+[913]: https://github.com/kontorol/pakhshkit-js/blob/master/docs/configuration.md#configsourcescaptions
 [914]: https://goo.gl/EEhZqT
 [915]: https://goo.gl/eKVPPe
 [916]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/undefined

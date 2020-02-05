@@ -1,7 +1,7 @@
 {
-  "name": "@playkit-js/playkit-js",
+  "name": "@pakhshkit-js/pakhshkit-js",
   "version": "0.59.5",
-  "main": "dist/playkit.js",
+  "main": "dist/pakhshkit.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "prebuild": "npm run clean",
@@ -86,19 +86,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaltura/playkit-js"
+    "url": "https://github.com/kontorol/pakhshkit-js"
   },
   "keywords": [
-    "kaltura",
+    "kontorol",
     "player",
     "html5 player"
   ],
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/kaltura/playkit-js/issues"
+    "url": "https://github.com/kontorol/pakhshkit-js/issues"
   },
-  "homepage": "https://github.com/kaltura/playkit-js",
+  "homepage": "https://github.com/kontorol/pakhshkit-js",
   "kcc": {
-    "name": "playkit"
+    "name": "pakhshkit"
   }
 }
