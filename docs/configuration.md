@@ -4,7 +4,7 @@ Configuration parameters could be provided upon instantiation of the player inst
 var config = {
   // Configuration here
 };
-var player = playkit.core.loadPlayer(config);
+var player = pakhshkit.core.loadPlayer(config);
 ```
 
 #### Configuration Structure
