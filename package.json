@@ -1,6 +1,6 @@
 {
   "name": "pakhshkit-js",
-  "version": "0.27.3",
+  "version": "0.27.1",
   "main": "dist/pakhshkit.js",
   "scripts": {
     "clean": "rm -rf ./dist",
